@@ -1,0 +1,291 @@
+/************************************************************* TAG SELECTORS **************************************************************/
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+  color: #4ab19a;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: #4ab19a;
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #4ab19a;
+}
+
+p {
+  font-family: 'Arapey', serif;
+  font-size: 1.25rem;
+  color: #786a54;
+  display: block;
+}
+
+
+
+div {
+  background-color: #e0ebe8;
+  margin: 0;
+  padding: 4.5%;
+}
+
+a{
+  margin: 10px 20px;
+}
+
+/************************************************************* CLASS SELECTORS **************************************************************/
+
+
+.top-container {
+  position: relative;
+  padding-top: 170px;
+  padding-bottom: 0;
+}
+
+.top-container-topcloud {
+  position: absolute;
+  right: 500px;
+  top: 130px
+}
+
+.top-container-basil {
+  font-family: 'Sacramento', cursive;
+  font-weight: lighter;
+  margin-bottom: 5px;
+  font-size: 5rem;
+}
+
+.top-container-heading {
+  font-family: 'Nanum Brush Script', cursive;
+  color: #4ab19a;
+  font-size: 1.60rem;
+  margin-top: 5px;
+}
+
+.top-container-bottomcloud {
+  position: absolute;
+  left: 500px;
+}
+
+
+.top-container-mountain {
+  width: 45%;
+  height: 45%;
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+.middle-container {
+  background-color: #fffff0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.middle-container-whatican {
+  font-size: 2.5rem ;
+  line-height:1;
+  color: #786a54;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: lighter;
+  padding-bottom: 0;
+}
+.middle-container-tables{
+    line-height: 1;
+    position: relative;
+    height: 500px;
+    padding-top:0;
+}
+
+.middle-container-table1{
+  margin-bottom: 100px;
+  display: inline-block;
+  position: absolute;
+  left:100px;
+  top:0;
+}
+.middle-container-tabletext1{
+  width:200px;
+  text-align:left;
+  line-height: 1.2;
+}
+
+.middle-container-table2{
+  display: inline-block;
+  position: absolute;
+  right:100px;
+  bottom:0;
+}
+
+.middle-container-tabletext2{
+  width:200px;
+  text-align: right;
+  line-height: 1.2;
+}
+
+
+
+.middle-container-available
+{
+  font-size: 1.25rem;
+}
+
+.middle-container-contacts{
+  display: inline-block;
+  padding: 0;
+  height:40px;
+  width: 180px;
+  border-radius: 5px;
+  background-color: #4ab19a;
+  position: relative;
+
+}
+.middle-container-btn{
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight:lighter;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  position: absolute;
+  top:3px;
+  left:35px;
+  color:#c1c1c1;
+}
+.middle-container-emailimg{
+  position: absolute;
+  height: 25px;
+  width:25px;
+  left:10px;
+  top:8px;
+
+}
+.middle-container-contact-me{
+  padding:20px;
+}
+
+.bottom-container-join-row{
+  bottom:200px;
+  text-align: left;
+
+}
+
+.bottom-container-computerimg{
+  float:left;
+  width: 10%;
+  height:  10%;
+  margin-left: 200px;
+  border-radius: 50%;
+  margin-right: 100px;
+
+
+}
+.bottom-container-joinhead{
+margin-right: 0;
+padding: 0;
+text-align: left;
+display: inline;
+line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+.bottom-container {
+  background-color: #e0ebe8;
+}
+
+
+
+.bottom-container-footer-link {
+  text-decoration: none;
+  color:#4ab19a;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.bottom-container-footer-para{
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color:#4ab19a;
+  font-size:0.9411764705882353rem;
+}
+
+
+
+.other-container {
+  height: 200px;
+  width: 200px;
+}
+
+
+
+
+
+
+
+/************************************************************* Special SELECTORS **************************************************************/
+.top-container-basil::moz-selection {
+  color: #98ccc0;
+}
+
+.top-container-basil::selection {
+  color: #98ccc0;
+}
+
+.top-container-heading::moz-selection {
+  color: #786a54;
+}
+
+.top-container-heading::selection {
+  color: #786a54;
+}
+
+img::selection {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body::selection {
+  background-color: #e0ebe8;
+}
+
+.middle-container ::selection{
+  color:#4ab19a;
+}
+.bottom-container-footer-link:hover{
+  color: #786a54;
+}
+.middle-container-contacts:hover{
+  background-color: #786a54;
+}
+.bottom-container ::selection{
+  color:#4ab19a;
+}
+h1::selection{
+  color: #e0ebe8
+}
+h2 ::selection{
+  color:#786a54
+}
+
+h3::selection{
+  color: #e0ebe8
+}
+.bottom-container-computerimg:hover{
+  box-shadow: 0 0 5px #000f;
+}

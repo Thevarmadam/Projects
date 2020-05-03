@@ -1,0 +1,239 @@
+/* selectors */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+/* global */
+.container-fluid{
+padding: 3% 15% 10%;
+}
+/* global color */
+.colored-section{
+  background-color: #FF4C68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+
+/* title section */
+
+#title{
+
+  color: white;
+  clip: rect(0, 0, 10%, 0);
+
+}
+.head1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5em;
+  line-height: 1.5;
+  font-weight: bolder;
+  text-align: left;
+}
+
+
+
+/* navigation bar section */
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+padding:0 18px;
+}
+.nav-link{
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+/* title image */
+.titleimg{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+
+/* download buttons */
+.Downloadbuttons{
+
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+#features{
+
+  margin: 0 5% 5% 5%;
+  position: relative;
+  padding-top: 7%;
+
+
+}
+.feature-box{
+  margin-bottom: 5%;
+  margin-top: 5%;
+
+}
+
+.features-head{
+font-size: 1.5rem;
+font-family: "Montserrat-bold" sans-serif;
+
+}
+.features-sub{
+  font-family: "Montserrat-medium" sans-serif;
+  font-weight: 300;
+  color: #8f8f8f;
+  width:80%;
+
+  margin: auto;
+}
+.features-icon{
+font-size: 4rem;
+color: #ef8172;
+}
+.features-icon:hover{
+  color: #FF4C68;
+}
+
+/* testimonials */
+
+#testimonials{
+
+
+background-color:  #ef8172;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-testimonial{
+  font-family:"Montserrat" sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 2%;
+
+}
+.testimonial-img{
+  width:10%;
+  border-radius: 50%;
+  margin:20px;
+}
+/* press */
+#press{
+  padding:3%;
+
+  background-color: #ef8172;
+}
+.press-img{
+ width:12.5%;
+ margin: 20px;
+ margin-bottom: 50px;
+}
+
+/* pricing */
+.card{
+
+  margin: auto;
+  padding: 0 5%
+}
+.pricing-column
+{
+  padding: 2% ;
+}
+.pricing-head{
+  font-size: 2rem;
+  font-family: "Montserrat-bold" sans-serif;
+
+  font-weight: bold;
+  padding-top: 5%;
+
+}
+.pricing-sub{
+  font-family: "Montserrat-medium" sans-serif;
+  font-weight:300;
+  color: #8f8f8f;
+
+  padding-bottom: 5%;
+}
+.card-deck{
+  padding:0;
+}
+/* cta */
+
+#cta{
+
+  padding: 5%;
+  padding-bottom: 0;
+
+}
+.cta-head{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+/* footer */
+
+#footer{
+
+padding-top: 5%;
+padding-bottom: 2%;
+line-height: 2;
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+
+
+}
+
+
+
+/* media */
+
+@media (min-width:980px) and (max-width:1245px)
+{
+  .head1{
+
+    position: static;
+
+  }
+  .downloadbuttonsdiv{
+
+    margin: auto;
+  }
+
+
+}
+@media (max-width:990px){
+  .titleimg{
+
+    transform:rotate(0deg);
+    position:static;
+    width: 60%;
+    margin: auto;
+  }
+
+    .head1{
+      text-align: center;
+      position: static;
+
+    }
+    .downloadbuttonsdiv{
+      text-align: center;
+      margin: auto;
+    }
+    .container{
+      text-align: center;
+    }
+  }
